@@ -107,7 +107,9 @@ const CadastrarScreen = ({navigation}) => {
             </Text>
         </Pressable> 
         <Pressable style={styles.button} >
-            <Text style={styles.buttonText}>
+            <Text 
+                style={styles.buttonText}
+                onPress={() => navigation.replace('Cadastro')}>
                 VOLTAR
             </Text>
         </Pressable> 
